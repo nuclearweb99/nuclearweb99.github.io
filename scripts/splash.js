@@ -12,4 +12,4 @@ var splashes = [
     "Check out AoE!",
     "Check out Wolfenstein 3D!"
 ]
-document.body.innerHTML = splashes.random;
+document.body.innerHTML = "dingus"
