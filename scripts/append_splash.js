@@ -19,6 +19,7 @@ var splashes = [
     "Check out Fortnite!",
     "Check out Undertale!",
     "Check out Untitled Goose Game!",
+    "Check out Baldi's Basics!",
     "This feature took 2 hours to implement!",
     "You see an APPLE!",
     "Mind the gap!",
@@ -33,7 +34,15 @@ var splashes = [
     "The cake is a lie!",
     "Lorem Ipsum!",
     "As seen on TV!",
-    ""
+    "Game Theory!",
+    "9 Years in development!",
+    "AIR!",
+    "Secure, contain, protect!",
+    "Impulse 9!",
+    "Includes garbage collection!",
+    "Clown down!",
+    "I just mined bedrock!",
+    "Never gonna give you up..."
 ]
 var p = document.createElement("p");
 p.style.color = "yellow";
