@@ -44,8 +44,10 @@ var splashes = [
     "I just mined bedrock!",
     "Never gonna give you up..."
 ]
+sessionStorage.clear;
+sessionStorage.randsplash = rand_item();
 var p = document.createElement("p");
 p.style.color = "yellow";
 p.style.fontStyle = "bold";
-p.textContent = rand_item();
+p.textContent = sessionStorage.randsplash;
 document.body.appendChild(p);

@@ -2,6 +2,9 @@
 h1 {
 	color:darkgreen;
 	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	background-color: rgb(66, 88, 26);
+	text-shadow: 2px 2px 2px black;
+	width: 190px;
 }
 p{
 	font-style:bold;
@@ -13,3 +16,28 @@ body{
 	background: linear-gradient(rgb(36, 36, 36),rgb(18,18,18));
 	background-attachment: fixed;
 	}
+h3{
+	color:cornflowerblue;
+	font-style: inherit;
+	font-family:'Open Sans', Tahoma, Geneva, Verdana, sans-serif;
+	display: inline;
+}
+a{
+	color:seagreen;
+}
+a:hover{
+	color:rgb(31, 95, 59);
+}
+.navbar ul{
+	overflow:hidden;
+	list-style-type: none;
+}
+.navbar li{
+	float:left;
+	margin:5px;
+
+}
+h4{
+	text-align: left;
+	color: rgb(173, 171, 14);
+}
