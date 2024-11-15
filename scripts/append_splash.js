@@ -42,12 +42,14 @@ var splashes = [
     "Includes garbage collection!",
     "Clown down!",
     "I just mined bedrock!",
-    "Never gonna give you up..."
+    "Never gonna give you up...",
+    "Old Godzilla was walking around...",
+    "HAHAHAHA! RONALDINHO SOXXER!!",
+    "You're Winner!",
+    "Spy Mains!"
 ]
-sessionStorage.clear;
-sessionStorage.randsplash = rand_item();
 var p = document.createElement("p");
 p.style.color = "yellow";
 p.style.fontStyle = "bold";
-p.textContent = sessionStorage.randsplash;
+p.textContent = rand_item();
 document.body.appendChild(p);

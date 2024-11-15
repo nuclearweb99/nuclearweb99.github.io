@@ -17,10 +17,9 @@ body{
 	background-attachment: fixed;
 	}
 h3{
-	color:cornflowerblue;
-	font-style: inherit;
-	font-family:'Open Sans', Tahoma, Geneva, Verdana, sans-serif;
-	display: inline;
+	color:rgb(109, 0, 0);
+	font-family: 'Monaco';
+	font-size: 18px;
 }
 a{
 	color:seagreen;
