@@ -1,7 +1,9 @@
-// AFTER 2 HOURS I HAVE MANAGED TO IMPLEMENT SPLASH TEXTS!!!
+// AFTER 2 HOURS I HAVE MANAGED TO IMPLEMENT SPLASH TEXTS!!! 
 function rand_item() {
     return(splashes[(Math.floor(Math.random() * splashes.length))]);
 }
+
+// the normal splashes
 var splashes = [
     "DOOM!",
     "100% more BANG!",
@@ -43,13 +45,27 @@ var splashes = [
     "Clown down!",
     "I just mined bedrock!",
     "Never gonna give you up...",
-    "Old Godzilla was walking around...",
     "HAHAHAHA! RONALDINHO SOXXER!!",
     "You're Winner!",
-    "Spy Mains!"
+    "Spy Mains!",
+	"Saver of Humens!",
+	"Mom has dead!",
+	"I LOVED WIFE LIKE SUN RAISE! YOU WILL SUFFAR!",
+	"Normal people close!",
+	"The Pants were dead!",
+    "Scout's pants ain't blue!",
+    "I HATE C++",
+    "Software renderer also available!",
+    "Check out Papers, Please!",
+    "Glory to Arstotzka!",
+    "Check out 2B2T!",
+    "64 bit integers!",
+    "No integer overflow!"
 ]
 var p = document.createElement("p");
 p.style.color = "yellow";
 p.style.fontStyle = "bold";
-p.textContent = rand_item();
+p.textContent = rand_item(splashes);
 document.body.appendChild(p);
+
+// < Nice...
