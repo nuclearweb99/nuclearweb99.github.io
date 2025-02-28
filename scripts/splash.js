@@ -68,7 +68,6 @@ var splashes = [
     "myhouse.wad!",
     "Follow the train CJ!",
     "^ Cool",
-    "You deserve to be NUCLEAR!"
 ]
 var p = document.createElement("p");
 const windowArgument = window.location.search;
