@@ -69,7 +69,12 @@ var splashes = [
     "Follow the train CJ!",
     "^ Cool",
     "You deserve to be NUCLEAR!",
-    "2FA Sucks!"
+    "2FA Sucks!",
+    "Prostagma!",
+    "Bazinga!",
+    "Their eyes met across the laboratory... the chemistry was instataneous!",
+    "Still water!",
+    "Highly Trained Professional!"
 ]
 var p = document.createElement("p");
 const windowArgument = window.location.search;
