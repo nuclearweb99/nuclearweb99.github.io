@@ -82,7 +82,7 @@ h3{
 q{
     font-style: italic;
 }
-.playlink {
+.playlink{
     color:rgb(255, 255, 255);
     text-decoration: none;
     padding: 10px;
@@ -93,7 +93,27 @@ q{
     font-weight: bolder;
     width: 240px;
 }
+.playlink:hover{
+    background-color: rgb(100, 0, 0);
+}
 .normal_img{
     width: 50%;
     height: 50%;
+}
+.playbtn{
+    outline: none !important;
+    border: none !important;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    text-align: center;
+    background-color: rgb(189, 0, 0);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    width: 240px;
+    cursor: pointer;
+}
+.playbtn:hover{
+    background-color: rgb(100, 0, 0);
 }
