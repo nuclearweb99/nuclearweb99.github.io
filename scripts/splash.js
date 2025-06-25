@@ -74,7 +74,12 @@ var splashes = [
     "Bazinga!",
     "Their eyes met across the laboratory... the chemistry was instataneous!",
     "Still water!",
-    "Highly Trained Professional!"
+    "Highly Trained Professional!",
+    "GOODBYE, GALAXY!",
+    "Swim, swim, hungry!",
+    "WHAT IS THE TIME CV-11?",
+    "Ideas from the Deep!",
+    "Pistol Klips!"
 ]
 var p = document.createElement("p");
 const windowArgument = window.location.search;
