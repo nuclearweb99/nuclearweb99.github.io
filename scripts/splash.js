@@ -79,17 +79,29 @@ var splashes = [
     "Swim, swim, hungry!",
     "WHAT IS THE TIME CV-11?",
     "Ideas from the Deep!",
-    "Pistol Klips!"
+    "Pistol Klips!",
+    "Because Civilization should be free!",
+    "3rd version!"
 ]
 var p = document.createElement("p");
-const windowArgument = window.location.search;
-var splashContent = "";
 p.id = "splashtext";
+
+const windowArgument = window.location.search;  // <-- move this above usage
+var splashContent = "";
+
 if (windowArgument == "?supersecret") {
-    splashContent = "You found the secret!"
+    splashContent = "You found the secret!";
 } else {
     splashContent = rand_item(splashes);
 }
-document.title = "Nuclear Web: ".concat(splashContent);
+
+document.title = "Nuclear Web: " + splashContent;
 p.textContent = splashContent;
-document.body.appendChild(p);
+
+// safer append
+const header = document.querySelector(".header");
+if (header) {
+    header.appendChild(p);
+} else {
+    document.body.appendChild(p);
+}
